@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+<script language='JavaScript' type='text/JavaScript'>
+<!--
+function move_img(str) {
+switch(str){
+case "upleft":
+var x=document.getElementById('i1').offsetTop;
+x=265;
+document.getElementById('i1').style.top= x+ "px";
+var y=document.getElementById('i1').offsetLeft;
+y= 550;
+document.getElementById('i1').style.left= y + "px";
+
+break;
+
+case "upright":
+var x=document.getElementById('i1').offsetTop;
+x= 265;
+document.getElementById('i1').style.top= x + "px";
+var y=document.getElementById('i1').offsetLeft;
+y= 1050;
+document.getElementById('i1').style.left= y + "px";
+
+break;
+
+case "botleft":
+var x=document.getElementById('i1').offsetTop;
+x= 735;
+document.getElementById('i1').style.top= x + "px";
+var y=document.getElementById('i1').offsetLeft;
+y= 550;
+document.getElementById('i1').style.left= y + "px";
+
+break;
+
+case "botright":
+var x=document.getElementById('i1').offsetTop;
+x= 735;
+document.getElementById('i1').style.top= x + "px";
+var y=document.getElementById('i1').offsetLeft;
+y= 1100;
+document.getElementById('i1').style.left= y + "px";
+break;
+}
+}
+//-->
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <style>
+      #navbar {
+        font-family: 'Raleway';
+        font-size: 125%;
+      }
+      #indextextone{
+		font-family: 'Raleway';
+		font-size: 155%;
+	}
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+<body bgcolor="#132F59">	
+	<div id="navbar">
+		<div class="left">
+			<!--<img src="./images/thescriptlogo.png" width="150">-->
+			<a href="https://www.facebook.com/thescript/" title="Facebook page"><img src="./images/01.png" width="60"></a>
+			<a href="https://www.instagram.com/thescriptofficial/" title="Instagram page"><img src="./images/02.png" width="60"></a>
+		</div>
+
+		<div class="right">
+			<li><a href="ex3_Rodriguez.html">		About			</a></li>
+			<li><a href="Events.html">				Events			</a></li>
+			<li><a href="Contact.html">				Contact			</a></li>
+			<li><a href="FanSU.html">				Fan Sign Up		</a></li>
+		</div>
+	</div>
+
+
+	<div class="indexone">
+		<img src="./images/thescriptlogo.png" id='i1'  width="15%" style="position:absolute; left:550px; top: 265px;">
+
+
+		<p id="indexnameone" style="font-family: 'Oswald'">About the artist</p>
+		<p id="indextextone">
+			The Script are an Irish rock band formed in 2007
+			in Dublin, Ireland.<br> They first released music in 2008. It
+			consists of lead vocalist and <br>keyboardist Daniel O'Donoghue, lead guitarist Mark Sheehan, and<br> drummer Glen Power. The band moved to London after signing to<br> Sony Label Group imprint Phonogenic and released their<br> eponymous debut album in August 2008, preceded by the successful<br> singles "The Man Who Can't Be Moved" and "Breakeven". Their next<br> three albums, Science & Faith (2010), #3 (2012) and No Sound Without<br> Silence (2014), all topped the album charts in Ireland and the UK,<br> while Science & Faith reached number three in the US. Hit singles from<br> the albums include "For the First Time", "Nothing", "Hall of Fame" and <br>"Superheroes". The band's fifth studio album, Freedom Child, was <br>released on 1 September 2017, and features the UK Top 20 single "Rain". 
+		</p>
+<br><br><br><br><br><br><br><br>
+<input type=button onClick=move_img('upleft') value='Northwest'>
+<br><br><br>
+<input type=button onClick=move_img('upright') value='Northeast'>
+<br><br><br>
+<input type=button onClick=move_img('botleft') value='Southwest'>
+<br><br><br>
+<input type=button onClick=move_img('botright') value='Southeast'>
+	</div>
+
+
+
+</body>
+</html>

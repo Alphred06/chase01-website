@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>References</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css"> 	
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <style>
+    #navbar {
+        font-family: 'Raleway';
+        font-size: 125%;
+     	}
+    #fansignuptextone{
+      	font-size: 80px;      
+		}
+	#fsulabeltext{
+			font-family: 'Raleway';
+			font-size: 125%;
+		}
+	#fsuprompt{
+			font-family: 'Raleway';
+			font-size: 125%;
+			color: white;
+		}
+    </style>
+<body bgcolor="#132F59">	
+	<div id="navbar">
+		<div class="left">
+			<a href="https://www.facebook.com/thescript/" title="Facebook page"><img src="./images/01.png" width="60"></a>
+			<a href="https://www.instagram.com/thescriptofficial/" title="Instagram page"><img src="./images/02.png" width="60"></a>
+		</div>
+
+		<div class="right">
+			<li><a href="ex3_Rodriguez.html">		About			</a></li>
+			<li><a href="Events.html">				Events			</a></li>
+			<li><a href="Contact.html">				Contact			</a></li>
+			<li><a href="FanSU.html">				Fan Sign Up		</a></li>
+		</div>
+	</div>
+
+
+	<div id="fansignupone">
+		<p id="fansignuptextone" style="font-family: 'Oswald'">Sign Up to our newsletter to be updated with The Script!</p>
+		<form name="fsu" id="fansignup">
+			<label for="fsuusername" id="fsulabeltext">Username: </label>
+			<input type="text" id="fsuusername" name="input"><br><br>
+
+			<label for="fsupassword" id="fsulabeltext">Password: </label>
+			<input type="password" id="fsupassword" name="input"><br><br>
+
+			<label for="fsufname" id="fsulabeltext">First Name: </label>
+			<input type="text" id="fsufname" name="input"><br><br>
+
+			<label for="fsulname" id="fsulabeltext">Last Name: </label>
+			<input type="text" id="fsulname" name="input"><br><br>
+
+			<label for="fsuoccupation" id="fsulabeltext">Occupation: </label>
+			<input type="text" id="fsuoccupation" name="input"><br><br>
+
+			<label for="fsuemailadd" id="fsulabeltext">Email Address: </label>
+			<input type="text" id="fsuemailadd" name="input"><br><br>
+
+			<label for="fsumailingadd" id="fsulabeltext">Mailing Address: </label>
+			<input type="text" id="fsumailingadd" name="input"><br><br>
+
+			<label for="fsuphno" id="fsulabeltext">Contact Number: </label>
+			<input type="text" id="fsuphno" name="input"><br><br>
+			<br>
+
+			<input type="button" value="Submit" onClick="test()" id="fsbtn">
+			<p id="fsuprompt"></p>
+		</form>
+
+		<script type="text/javascript">
+			function test()
+			{
+				var username=document.fsu.fsuusername.value;
+				var password=document.fsu.fsupassword.value;
+				var fname=document.fsu.fsufname.value;
+				var lname=document.fsu.fsulname.value;
+				var emailadd=document.fsu.fsuemailadd.value;
+
+				var prompt=document.getElementById("fsuprompt");
+
+				if (username=="" || password=="" || fname=="" || lname=="" || emailadd=="")
+				{
+					if(username==""){
+						document.fsu.fsuusername.value="*Please input a value*"+fname;
+					}	
+					if(password==""){
+						prompt.innerHTML="*Please input a value for Password*";
+					}
+					if(fname==""){
+						document.fsu.fsufname.value="*Please input a value*";
+					}	
+					if(lname==""){
+						document.fsu.fsulname.value="*Please input a value*";
+					}	
+					if(emailadd==""){
+						document.fsu.fsuemailadd.value="*Please input a value*";
+					}	
+				}//end of if
+				if (username!="" && password!="" && fname!="" && lname!="" && emailadd!="")
+				{
+					prompt.innerHTML="Sign Up success! Welcome "+ username+" ("+fname+" "+lname+")"+" to The Script's newsletter!" ;
+					document.fsu.fsuusername.value="";
+					document.fsu.fsupassword.value="";
+					document.fsu.fsufname.value="";
+					document.fsu.fsulname.value="";
+					document.fsu.fsuoccupation.value="";
+					document.fsu.fsuemailadd.value="";
+					document.fsu.fsumailingadd.value="";
+					document.fsu.fsuphno.value="";
+				}
+			}
+
+		</script>
+
+	</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,430 @@
+#navbar{
+	color:white;
+	position: absolute;
+	width:100%;
+	top:10px;
+	margin:-5px;
+	background-color: #256EC7;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	list-style-type: none;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.left{
+	margin-top: -5px;
+	margin-left: 1em;
+	display: grid;
+	grid-template-columns:   1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+}
+
+.right{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.right li{
+	padding: 1em;
+	white-space: nowrap;
+}
+
+.right a{
+	color: white;
+	text-decoration: none;
+}
+
+.right a:hover
+{
+  color: #FFC03A;
+  transition: .15s;
+  font-size: 150%;
+}
+
+.indexone{
+	position: relative;
+	margin-top: 60px;	
+	padding: 300px;
+}
+
+#indexnameone{
+	color: white;
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 14%;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#indextextone{
+	color: white;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 14%;
+	line-height: 2;
+}
+
+.eventsone{
+	position: relative;
+	width:100%;
+	top: 60px;	
+	margin:-10px;
+	padding: 2000px;
+}
+
+#eventslabelone{
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.eventscollection{
+	font-size: 50px;
+}
+
+#pictureone{
+	position: absolute;
+ 	top: 250px;
+  	left: 350px;
+  	width: 6%;
+  	display: inline-block;
+}
+
+#pictureonelabelone{
+	color: #FFC03A;
+	position: absolute;
+	top: 280px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#pictureonelabeltwo{
+	color: #FFC03A;
+	position: absolute;
+	top: 340px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#pictureonelabelthree{
+	position: absolute;
+	top: 400px;
+	left: 810px;
+	font-family: Raleway;
+	font-size: 40px;
+	color:white;
+	line-height: 2;
+}
+
+#pictureonelabelone:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#pictureonelabeltwo:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#pictureonelabelthree:hover
+{
+  background-color: black;
+  color: #FFC03A;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 30px;
+}
+
+#picturetwo{
+	position: absolute;
+ 	top: 750px;
+  	left: 350px;
+  	width: 6%;
+}
+
+#picturetwolabelone{
+	color: #FFC03A;
+	position: absolute;
+	top: 780px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#picturetwolabeltwo{
+	color: #FFC03A;
+	position: absolute;
+	top: 840px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#picturetwolabelthree{
+	position: absolute;
+	top: 900px;
+	left: 810px;
+	font-family: Raleway;
+	font-size: 40px;
+	color:white;
+	line-height: 2;
+}
+
+#picturetwolabelone:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturetwolabeltwo:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturetwolabelthree:hover
+{
+  background-color: black;
+  color: #FFC03A;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 30px;
+}
+
+#picturethree{
+	position: absolute;
+ 	top: 1250px;
+  	left: 350px;
+  	width: 6%;
+}
+
+#picturethreelabelone{
+	color: #FFC03A;
+	position: absolute;
+	top: 1250px;
+	left: 810px;;
+	font-weight: bold;
+}
+
+#picturethreelabeltwo{
+	color: #FFC03A;
+	position: absolute;
+	top: 1310px;
+	left: 810px;
+	font-weight: bold;
+	font-size: 43px;
+}
+
+#picturethreelabelthree{
+	position: absolute;
+	top: 1360px;
+	left: 810px;
+	font-family: Raleway;
+	font-size: 40px;
+	color:white;
+	line-height: 2;
+}
+
+#picturethreelabelone:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturethreelabeltwo:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturethreelabelthree:hover
+{
+  background-color: black;
+  color: #FFC03A;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 30px;
+}
+
+#picturefour{
+	position: absolute;
+ 	top: 1750px;
+  	left: 350px;
+  	width: 6%;
+}
+
+#picturefourlabelone{
+	color: #FFC03A;
+	position: absolute;
+	top: 1750px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#picturefourlabeltwo{
+	color: #FFC03A;
+	position: absolute;
+	top: 1810px;
+	left: 810px;
+	font-weight: bold;
+}
+
+#picturefourlabelthree{
+	position: absolute;
+	top: 1870px;
+	left: 810px;
+	font-family: Raleway;
+	font-size: 40px;
+	color:white;
+	line-height: 2;
+}
+
+#picturefourlabelone:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturefourlabeltwo:hover
+{
+  background-color: white;
+  color: black;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 40px;
+}
+#picturefourlabelthree:hover
+{
+  background-color: black;
+  color: #FFC03A;
+  font-family: Raleway;
+  transition: .15s;
+  font-size: 30px;
+}
+
+#contactone{
+	color: white;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 100px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#contacttextone{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 100px;
+	font-size: 16px;
+	line-height: 2;
+	color: black;
+}
+#contactquery{
+	  background-color: transparent;
+	  font-size: 20px;
+	  color: white;
+}
+#contactbutton{
+	  padding: 20px 50px;
+}
+
+#contactbutton:hover
+{
+  background-color: gray;
+  color:white;
+  transition: .15s;
+}
+
+#fansignupone{
+	position: relative;
+	margin-top: 350px;
+	margin-left: 100px;
+}
+
+#fansignuptextone{
+	color: white;
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+#fsulabeltext{
+	  color: white;
+	  font-size: 20px;
+}
+
+#fsuusername{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 55px;
+}
+
+#fsupassword{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 6.5px;
+	  margin-left: 62px;
+}
+
+#fsufname{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 50px;
+}
+
+#fsulname{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 52px;
+}
+
+#fsuoccupation{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 47px;
+}
+
+#fsuemailadd{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 22px;
+}
+
+#fsumailingadd{
+	  font-size: 20px;
+	  width:40%;
+	  margin-left: 7px;
+}
+
+#fsuphno{
+	  font-size: 20px;
+	  width:40%;
+}
+
+#fsbtn{
+	  padding: 20px 50px;
+}
+#fsbtn:hover
+{
+  background-color: gray;
+  color:white;
+  transition: .15s;
+}
